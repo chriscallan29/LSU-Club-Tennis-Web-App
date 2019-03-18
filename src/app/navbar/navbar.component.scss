@@ -1,0 +1,99 @@
+header {
+    background: #000000;
+    .navbar-container {
+        width: 80%;
+        margin: 0 auto;
+        // padding: 1.3em;
+        display: grid;
+        grid-template-columns: 150px repeat(3, 1fr) 175px;
+    
+        a{
+            color: white;
+        }
+    }
+
+    .social-media-nav {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    
+    .left-nav {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        ul {
+            list-style-type: none;
+            margin:0;
+            padding: 0;
+            li {
+                float: left;
+                a { 
+                    align-items: center;
+                    padding: 1.5em;
+                    font-size: 28px;
+                    font-family: 'Segoe UI';  
+                }
+            }
+        }
+    }
+
+    .center-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo {
+        width: 25%; 
+        height: auto;
+    }
+
+    .right-nav {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        ul {
+            list-style-type: none;
+            margin:0;
+            padding: 0;
+            li {
+                float: left;
+                a { 
+                    align-items: center;
+                    padding: 1.5em;
+                    font-size: 28px;
+                    font-family: 'Segoe UI';  
+                }
+            }
+        }
+    }
+
+    .support-button-nav {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        .btn {
+            float: center;
+            background-color: #FFD700;
+            width: auto;
+            height: 60px;
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 'Segoe UI'; 
+            ul {
+                list-style-type: none;
+                margin:0;
+                padding: 0;
+                li {
+                    float: left;
+                    a { 
+                        align-items: center;
+                        font-size: 24px;  
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
