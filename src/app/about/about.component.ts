@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import  AOS  from 'aos';
 
 @Component({
   selector: 'app-about',
@@ -10,6 +11,9 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    AOS.init({
+      duration: 1200,
+    })
   }
 
 }
