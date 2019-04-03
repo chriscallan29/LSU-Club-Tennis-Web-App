@@ -12,10 +12,12 @@ header {
         }
     }
 
-    .social-media-nav {
-        display: flex;
+    .social-media-nav > a  {
+        display: inline;
         justify-self: center;
         align-items: center;
+        position: relative;
+        bottom: 25px;
     }
     
     .left-nav {

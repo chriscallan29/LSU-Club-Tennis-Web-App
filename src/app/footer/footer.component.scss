@@ -11,10 +11,12 @@ footer {
         }
     }
 
-    .social-media-footer {
-        display: flex;
+    .social-media-footer > a{
+        display: inline;
         justify-self: center;
         align-items: center;
+        position: relative;
+        top: 40px;
     }
 
     .center-footer {
