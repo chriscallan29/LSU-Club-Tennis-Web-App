@@ -14,8 +14,6 @@ const routes: Routes = [
   { path: 'support', component: SupportComponent},
 ];
 
-RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'});
-
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
