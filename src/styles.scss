@@ -19,3 +19,13 @@ a {
     margin: 0 auto;
     padding: 2em;
 }
+
+.swiper-pagination { 
+    .swiper-pagination-bullet{ 
+      background-color: #fff; 
+    } 
+    .swiper-pagination-bullet-active{ 
+      background: white; 
+      opacity: 1; 
+    } 
+}

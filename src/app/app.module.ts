@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 // Carousel Module
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     ContactComponent,
     SupportComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

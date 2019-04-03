@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import Swiper from 'swiper'    
+import 'swiper/dist/css/swiper.css'
+import { templateSourceUrl } from '@angular/compiler';
 
 @Component({
   selector: 'app-home',
@@ -11,6 +13,24 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      autoplay: {
+        delay: 5500,
+      },
+      loop: true,
+
+    });
   }
+  
+  
+  
 
 }
