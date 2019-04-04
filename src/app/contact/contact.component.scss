@@ -1,0 +1,39 @@
+.banner-container {
+    padding-bottom: 25px;
+}
+
+.banner-image {
+    max-height: 600px; 
+    min-width: 100%; 
+    margin:0 auto;
+}
+
+.banner-caption {
+    position: absolute;
+    color: white;
+    top: 215px;
+    right: 530px;
+}
+
+.contact-grid {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.btn {
+    background-color: #ffd700;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-info-grid-section {
+    text-align: center;
+}
+
+.contact-information {
+    display: inline-block; 
+    text-align: left;
+}
