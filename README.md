@@ -1,27 +1,33 @@
-# ClubTennisWebApp
+## LSU Club Tennis Team Web Application
+This project is intended to be used for recruitment, team management, and any other sort of practical application that the LSU Club Tennis Team could potentially utilize to benefit the team.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
+## Description
+I've been a member/officer of the LSU Club Tennis Team since I came to LSU four years ago. The club has always lacked something, whether it be players, funds, involvement, etc. As a result, the team has always been a bit disorganized or lacking in motivation due to an inefficient work system. I wanted to create this web application as a way for the team to centralize the team around, as well as have a source of consistent recruitment where potential players can learn about our team since recruitment was the most prevelant issue we faced. Additionally, this served as a great outlet for me to learn more about Angular and developing my own front-end application, from UX design to launch.
+ 
+## Screenshots
+![Home Page](/src/assets/home-Page-Screenshot.png)
+![Contact Page](/src/assets/contact-Page-Screenshot.png)
 
-## Development server
+## Tech/framework used
+<b>Built with</b>
+- [Angular](https://angular.io/) version 7.2.12
+- [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
+- [npm](https://www.npmjs.com/package/npm/v/5.6.0) version 5.6.0
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation
+<b>Windows</b>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<b>Mac or Linux</b>
 
-## Build
+## How to use?
+Once you have the project installed and running, you will be able to navigate to a localhost version of the web application on your browser of choice. Go to the following link:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- [http://localhost:4200/](http://localhost:4200/)
 
-## Running unit tests
+From there, you are able to navigate and interact with the site. You are able to check dates, see information, and submit forms despite it only being a local host. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Thank you!
+Thank you for taking the time to look at this project!
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
