@@ -11,6 +11,8 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    // AOS is the animation on scroll library. 
+    // This variable just dictates the speed of the animation.
     AOS.init({
       duration: 1200,
     })

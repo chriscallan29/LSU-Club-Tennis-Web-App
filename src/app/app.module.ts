@@ -11,8 +11,7 @@ import { SupportComponent } from './support/support.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 
-// Carousel Module
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 
 
 @NgModule({
@@ -29,7 +28,6 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
