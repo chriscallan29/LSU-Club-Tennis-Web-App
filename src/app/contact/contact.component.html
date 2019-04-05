@@ -7,18 +7,29 @@
 <div class="contact-grid">
   <div class="tryout-grid-section">
     <h3>Tryout Signup</h3>
-    <form>
+    <form name="club-Tennis-Tryout-Form" (ngSubmit)="onSubmit()">
+      <div class="row"  *ngIf="showMsg">
+        <div class="col-xs-12">
+          <p class="alert alert-success">
+            <strong>Registration Success!</strong>
+          </p>
+        </div>
+      </div>
       <div class="form-group">
         <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" placeholder="Mike Tiger" required>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Mike Tiger" required>
       </div>
       <div class="form-group">
         <label for="email">Email</label>
-        <input type="text" class="form-control" id="email" placeholder="miketiger@lsu.edu" required>
+        <input type="text" class="form-control" id="email" name="email" placeholder="miketiger@lsu.edu" required>
       </div>
       <div class="form-group">
         <label for="phone">Phone Number</label>
-        <input type="text" class="form-control" id="phone" placeholder="225-867-5309" required>
+        <input type="text" class="form-control" id="phone" name="phone" placeholder="225-867-5309" required>
+      </div>
+      <div class="form-group" style="display: none;">
+        <label for="time">Date and Time of Submission</label>
+        <input type="text" class="form-control" id="timestamp" name="timestamp" placeholder="{{timestamp}}" disabled="true" required>
       </div>
       <button type="submit" class="btn btn-success">Submit</button>
     </form>
@@ -26,10 +37,10 @@
   <div class="contact-info-grid-section">
     <div class="contact-information">
       <h3>Contact Info</h3>
-      Email: lsuclubtennis@gmail.com<br>
-      Facebook: facebook.com/lsuclubtennis<br>
-      Instagram: instagram.com/lsuclubtennis<br>
-      Twitter: twitter.com/lsuclubtennis
+      <a href="mailto:lsutennisclub@gmail.com">Email: lsuclubtennis@gmail.com</a><br>
+      <a href="https://www.facebook.com/lsuclubtennisteam/?ref=bookmarks">Facebook: facebook.com/lsuclubtennis</a><br>
+      <a href="https://www.instagram.com/lsuclubtennisteam/?hl=en">Instagram: instagram.com/lsuclubtennis</a><br>
+      <a href="https://twitter.com/LSUTennisClub">Twitter: twitter.com/lsuclubtennis</a>
     </div>
   </div>
 </div>
