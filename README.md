@@ -3,6 +3,9 @@ This project is intended to be used for recruitment, team management, and any ot
 
 ## Description
 I've been a member/officer of the LSU Club Tennis Team since I came to LSU four years ago. The club has always lacked something, whether it be players, funds, involvement, etc. As a result, the team has always been a bit disorganized or lacking in motivation due to an inefficient work system. I wanted to create this web application as a way for the team to centralize the team around, as well as have a source of consistent recruitment where potential players can learn about our team since recruitment was the most prevelant issue we faced. Additionally, this served as a great outlet for me to learn more about Angular and developing my own front-end application, from UX design to launch.
+
+UX Mockup Link:
+![Adobe Mockups](https://xd.adobe.com/view/10b762b4-729a-4043-58c7-ce5fc1e89eb5-6686/?hints=off)
  
 ## Screenshots
 ![Home Page](/src/assets/home-Page-Screenshot.png)

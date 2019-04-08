@@ -1,0 +1,14 @@
+.schedule-container {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.practice-information {
+    display: inline-block; 
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 15px;
+}
