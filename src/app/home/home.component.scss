@@ -2,16 +2,18 @@
   width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 2fr);
+  // grid-template-rows: repeat(2fr, 2fr);
 }
 
 .call-to-action-grid > .grid-content {
   position: relative;
+  width: 100%;
+  height: 500px;
 }
 
 .call-to-action-grid > .grid-content > img {
-  width: 576px;
+  width: 100%;
   height: 500px;
   object-fit: cover;
 }
@@ -27,8 +29,8 @@
   border-color: white;
   cursor: pointer;
   border-radius: 5px;
-  top: 400px;
-  right: 215px;
+  top: 85%;
+  right: 42%;
 }
 
 .call-to-action-grid > .grid-content > .text-call-left {
@@ -36,8 +38,8 @@
   font-size: 24px;
   font-weight: bold;
   color: white;
-  top: 370px;
-  right: 215px;
+  top: 79%;
+  right: 41%;
 }
 
 .call-to-action-grid > .grid-content > .text-call-right {
@@ -45,8 +47,8 @@
   font-size: 24px;
   font-weight: bold;
   color: white;
-  top: 370px;
-  right: 215px;
+  top: 79%;
+  right: 41%;
 }
 
 .carousel-custom-container {
