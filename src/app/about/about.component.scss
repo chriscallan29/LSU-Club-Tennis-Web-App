@@ -19,8 +19,7 @@
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 3fr);
     justify-items: center;
 }
 .image-cropper {
@@ -33,4 +32,5 @@
     font-family: 'Segoe UI';
     font-size: 18px;
     padding-bottom: 25px;
+    width: 215px;
 }
